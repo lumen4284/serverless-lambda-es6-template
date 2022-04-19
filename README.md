@@ -1,0 +1,1 @@
+# serverless-lambda-es6-template
