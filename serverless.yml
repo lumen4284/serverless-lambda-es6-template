@@ -1,0 +1,13 @@
+service: nodejs-sls-2021-example
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+functions:
+  hello-world:
+    handler: ./index.handler

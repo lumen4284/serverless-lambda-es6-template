@@ -1,0 +1,24 @@
+{
+  "name": "serverless-lambda-es6-template",
+  "version": "1.0.0",
+  "description": "A template for es6 serverless lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Seo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "aws-sdk": "^2.1116.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.4",
+    "eslint": "^8.13.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "serverless": "^3.14.0",
+    "serverless-offline": "^8.7.0",
+    "serverless-webpack": "^5.7.0",
+    "webpack": "^5.72.0"
+  }
+}
